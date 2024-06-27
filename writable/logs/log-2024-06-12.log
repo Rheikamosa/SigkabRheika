@@ -1,0 +1,434 @@
+CRITICAL - 2024-06-12 05:24:34 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: editsekolah/20302684]
+in APPPATH\Views\sekolah\edit.php on line 17.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sekolah/edit', [], true)
+ 3 APPPATH\Controllers\Sekolah.php(65): view('sekolah/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->edit('20302684')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 05:24:55 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: editkecamatan/30200]
+in APPPATH\Views\kecamatan\edit.php on line 16.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(47): view('kecamatan/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('30200')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 05:31:00 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: editkecamatan/30200]
+in APPPATH\Views\kecamatan\edit.php on line 16.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(47): view('kecamatan/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('30200')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 05:35:50 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: editsekolah/20302684]
+in APPPATH\Views\sekolah\edit.php on line 17.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sekolah/edit', [], true)
+ 3 APPPATH\Controllers\Sekolah.php(65): view('sekolah/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->edit('20302684')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 05:36:29 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: editsekolah/20302684]
+in APPPATH\Views\sekolah\edit.php on line 66.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sekolah/edit', [], true)
+ 3 APPPATH\Controllers\Sekolah.php(65): view('sekolah/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->edit('20302684')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 05:36:30 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: editsekolah/20302684]
+in APPPATH\Views\sekolah\edit.php on line 66.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sekolah/edit', [], true)
+ 3 APPPATH\Controllers\Sekolah.php(65): view('sekolah/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->edit('20302684')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 05:37:08 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: editkecamatan/30200]
+in APPPATH\Views\kecamatan\edit.php on line 16.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(47): view('kecamatan/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('30200')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-12 05:37:37 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`)) in C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `kecamat...', 0)
+#1 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamat...')
+#2 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamat...')
+#3 C:\xampp\htdocs\sigkab\system\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamat...', Array, false)
+#4 C:\xampp\htdocs\sigkab\system\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\sigkab\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\sigkab\system\Model.php(854): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\sigkab\app\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', Array)
+#8 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+#9 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#10 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sigkab\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sigkab\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sigkab\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-06-12 05:37:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+[Method: POST, Route: updatekecamatan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 2 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 05:37:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 4 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 05:37:37 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 5 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-12 05:40:59 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`)) in C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `kecamat...', 0)
+#1 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamat...')
+#2 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamat...')
+#3 C:\xampp\htdocs\sigkab\system\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamat...', Array, false)
+#4 C:\xampp\htdocs\sigkab\system\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\sigkab\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\sigkab\system\Model.php(854): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\sigkab\app\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', Array)
+#8 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+#9 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#10 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sigkab\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sigkab\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sigkab\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-06-12 05:40:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+[Method: POST, Route: updatekecamatan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 2 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 05:40:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 4 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 05:40:59 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 5 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-12 05:51:12 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`)) in C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `kecamat...', 0)
+#1 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamat...')
+#2 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamat...')
+#3 C:\xampp\htdocs\sigkab\system\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamat...', Array, false)
+#4 C:\xampp\htdocs\sigkab\system\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\sigkab\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\sigkab\system\Model.php(854): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\sigkab\app\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', Array)
+#8 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+#9 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#10 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sigkab\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sigkab\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sigkab\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-06-12 05:51:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+[Method: POST, Route: updatekecamatan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 2 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 05:51:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 4 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 05:51:12 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 5 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-12 06:12:11 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`)) in C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `kecamat...', 0)
+#1 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamat...')
+#2 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamat...')
+#3 C:\xampp\htdocs\sigkab\system\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamat...', Array, false)
+#4 C:\xampp\htdocs\sigkab\system\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\sigkab\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\sigkab\system\Model.php(854): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\sigkab\app\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', Array)
+#8 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+#9 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#10 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sigkab\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sigkab\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sigkab\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-06-12 06:12:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+[Method: POST, Route: updatekecamatan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 2 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 06:12:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 4 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 06:12:11 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 5 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-12 06:13:26 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`)) in C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `kecamat...', 0)
+#1 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamat...')
+#2 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamat...')
+#3 C:\xampp\htdocs\sigkab\system\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamat...', Array, false)
+#4 C:\xampp\htdocs\sigkab\system\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\sigkab\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\sigkab\system\Model.php(854): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\sigkab\app\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', Array)
+#8 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+#9 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#10 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sigkab\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sigkab\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sigkab\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-06-12 06:13:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+[Method: POST, Route: updatekecamatan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 2 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 06:13:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 4 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 06:13:26 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kecamatan` SET `kode_kecamatan` = \'30201\', `id_kabupaten` = \'1\', `nama_kecamatan` = \'LUMBIR\', `jumlah_penduduk` = \'50546\', `luas_wilayah` = \'10266.00\'
+WHERE `kecamatan`.`kode_kecamatan` IN (\'30200\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2497): CodeIgniter\Database\BaseConnection->query('UPDATE `kecamatan` SET `kode_kecamatan` = :kode_kecamatan:, `id_kabupaten` = :id_kabupaten:, `nama_kecamatan` = :nama_kecamatan:, `jumlah_penduduk` = :jumlah_penduduk:, `luas_wilayah` = :luas_wilayah:
+WHERE `kecamatan`.`kode_kecamatan` IN :kecamatan.kode_kecamatan:', [...], false)
+ 5 SYSTEMPATH\Model.php(450): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(854): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Kecamatan.php(78): CodeIgniter\Model->update('30200', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->update()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

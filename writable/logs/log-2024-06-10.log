@@ -1,0 +1,408 @@
+CRITICAL - 2024-06-10 02:37:18 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: editkecamatan/30200]
+in APPPATH\Views\kecamatan\edit.php on line 16.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(47): view('kecamatan/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('30200')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-10 02:37:27 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`)) in C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `ke...', 0)
+#1 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ke...')
+#2 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ke...')
+#3 C:\xampp\htdocs\sigkab\system\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ke...', Array, false)
+#4 C:\xampp\htdocs\sigkab\system\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\sigkab\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\sigkab\app\Controllers\Kecamatan.php(89): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(933): App\Controllers\Kecamatan->hapus('30200')
+#8 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#9 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sigkab\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sigkab\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sigkab\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-06-10 02:37:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+[Method: GET, Route: hapuskecamatan/30200]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN :kode_kecamatan:', [...], false)
+ 2 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Kecamatan.php(89): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->hapus('30200')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 02:37:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN :kode_kecamatan:', [...], false)
+ 4 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Kecamatan.php(89): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->hapus('30200')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 02:37:27 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN :kode_kecamatan:', [...], false)
+ 5 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Kecamatan.php(89): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->hapus('30200')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-10 02:37:36 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`)) in C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `ke...', 0)
+#1 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ke...')
+#2 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ke...')
+#3 C:\xampp\htdocs\sigkab\system\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ke...', Array, false)
+#4 C:\xampp\htdocs\sigkab\system\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\sigkab\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\sigkab\app\Controllers\Kecamatan.php(89): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(933): App\Controllers\Kecamatan->hapus('30200')
+#8 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#9 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sigkab\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sigkab\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sigkab\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-06-10 02:37:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+[Method: GET, Route: hapuskecamatan/30200]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN :kode_kecamatan:', [...], false)
+ 2 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Kecamatan.php(89): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->hapus('30200')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 02:37:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN :kode_kecamatan:', [...], false)
+ 4 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Kecamatan.php(89): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->hapus('30200')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 02:37:36 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN :kode_kecamatan:', [...], false)
+ 5 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Kecamatan.php(89): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->hapus('30200')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 02:37:52 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: editkecamatan/30200]
+in APPPATH\Views\kecamatan\edit.php on line 16.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(47): view('kecamatan/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('30200')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-10 02:39:35 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`)) in C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `ke...', 0)
+#1 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ke...')
+#2 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ke...')
+#3 C:\xampp\htdocs\sigkab\system\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ke...', Array, false)
+#4 C:\xampp\htdocs\sigkab\system\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\sigkab\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\sigkab\app\Controllers\Kecamatan.php(89): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(933): App\Controllers\Kecamatan->hapus('30200')
+#8 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#9 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sigkab\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sigkab\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\sigkab\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-06-10 02:39:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+[Method: GET, Route: hapuskecamatan/30200]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN :kode_kecamatan:', [...], false)
+ 2 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Kecamatan.php(89): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->hapus('30200')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 02:39:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN :kode_kecamatan:', [...], false)
+ 4 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Kecamatan.php(89): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->hapus('30200')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 02:39:35 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`sigkab`.`sekolah`, CONSTRAINT `sekolah_ibfk_1` FOREIGN KEY (`kode_kecamatan`) REFERENCES `kecamatan` (`kode_kecamatan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN (\'30200\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kecamatan`
+WHERE `kode_kecamatan` IN :kode_kecamatan:', [...], false)
+ 5 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Kecamatan.php(89): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->hapus('30200')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-10 02:45:02 --> mysqli_sql_exception: Duplicate entry '1' for key 'id_kabupaten' in C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\sigkab\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\sigkab\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sigkab\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sigkab\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\sigkab\app\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+#9 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#10 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sigkab\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sigkab\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sigkab\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-06-10 02:45:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1' for key 'id_kabupaten'
+[Method: POST, Route: simpankecamatan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (:kode_kecamatan:, :id_kabupaten:, :nama_kecamatan:, :jumlah_penduduk:, :luas_wilayah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 02:45:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1' for key 'id_kabupaten'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (:kode_kecamatan:, :id_kabupaten:, :nama_kecamatan:, :jumlah_penduduk:, :luas_wilayah:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 02:45:02 --> [Caused by] mysqli_sql_exception: Duplicate entry '1' for key 'id_kabupaten'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (:kode_kecamatan:, :id_kabupaten:, :nama_kecamatan:, :jumlah_penduduk:, :luas_wilayah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-10 02:45:51 --> mysqli_sql_exception: Duplicate entry '1' for key 'id_kabupaten' in C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\sigkab\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\sigkab\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sigkab\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sigkab\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\sigkab\app\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+#9 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#10 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sigkab\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sigkab\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sigkab\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-06-10 02:45:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1' for key 'id_kabupaten'
+[Method: POST, Route: simpankecamatan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (:kode_kecamatan:, :id_kabupaten:, :nama_kecamatan:, :jumlah_penduduk:, :luas_wilayah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 02:45:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1' for key 'id_kabupaten'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (:kode_kecamatan:, :id_kabupaten:, :nama_kecamatan:, :jumlah_penduduk:, :luas_wilayah:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 02:45:51 --> [Caused by] mysqli_sql_exception: Duplicate entry '1' for key 'id_kabupaten'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (:kode_kecamatan:, :id_kabupaten:, :nama_kecamatan:, :jumlah_penduduk:, :luas_wilayah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-10 10:27:21 --> mysqli_sql_exception: Duplicate entry '1' for key 'id_kabupaten' in C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\sigkab\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\sigkab\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\sigkab\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\sigkab\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sigkab\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sigkab\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\sigkab\app\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+#9 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+#10 C:\xampp\htdocs\sigkab\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sigkab\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sigkab\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sigkab\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-06-10 10:27:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1' for key 'id_kabupaten'
+[Method: POST, Route: simpankecamatan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (:kode_kecamatan:, :id_kabupaten:, :nama_kecamatan:, :jumlah_penduduk:, :luas_wilayah:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 10:27:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1' for key 'id_kabupaten'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (:kode_kecamatan:, :id_kabupaten:, :nama_kecamatan:, :jumlah_penduduk:, :luas_wilayah:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-10 10:27:21 --> [Caused by] mysqli_sql_exception: Duplicate entry '1' for key 'id_kabupaten'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (\'30202\', \'1\', \'WANGON\', \'84755\', \'6078\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kecamatan` (`kode_kecamatan`, `id_kabupaten`, `nama_kecamatan`, `jumlah_penduduk`, `luas_wilayah`) VALUES (:kode_kecamatan:, :id_kabupaten:, :nama_kecamatan:, :jumlah_penduduk:, :luas_wilayah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kecamatan.php(58): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
